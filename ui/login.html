@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="/app.js">
     <title></title>
 </head>
@@ -18,5 +19,56 @@
             <a href="login.html"><li>Login</li></a>
         </ul>
     </div>
+    <div class="container">
+        <header>
+          <nav>
+            <img src="logo.png" alt="Logo">
+            <h1>Carman's Handbook</h1>
+          </nav>
+          <a href="#" class="button">Sign up</a>
+        </header>
+        <main>
+          <section>
+            <h2>Login</h2>
+            <form action="#">
+              <div class="form-group">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" name="login-email" required>
+              </div>
+              <div class="form-group">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="login-password" required>
+              </div>
+              <button type="submit">Login</button>
+              <div class="form-footer">
+                <a href="#">Forgot password?</a>
+                <a href="#">Sign up</a>
+              </div>
+            </form>
+          </section>
+          <section>
+            <h2>Sign up</h2>
+            <form action="#">
+              <div class="form-group">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" name="signup-email" required>
+              </div>
+              <div class="form-group">
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" name="signup-password" required>
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+              </div>
+              <button type="submit">Sign up</button>
+              <div class="form-footer">
+                <a href="#">Already have an account? Login</a>
+              </div>
+            </form>
+          </section>
+        </main>
+      </div>
+
 </body>
 </html>
