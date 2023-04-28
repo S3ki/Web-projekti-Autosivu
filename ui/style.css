@@ -1,6 +1,7 @@
 body{
     background-color: gray;
 }
+
 .navbar{
     height: 20%;
     display: flex;
@@ -8,18 +9,53 @@ body{
     background-color: white;
     width: 100%;
 }
+
 .navbar ul{
     display: flex;
     gap: 20%;
     width: 100%;
-    
-    align-items: center;
-    margin-left: 27%;
+    justify-content: center;
     list-style: none;
 }
+
 .logo{
     position: absolute;
     z-index: -1;
    top: 30%;
    left: 25%;
+}
+
+.forum-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.forum-row{
+    width: 80%;
+    background-color: white;
+    height: 20%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profimg{
+    padding: 20px ;
+
+    width: 50px;
+   
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+.car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carimg{
+    width: 60%;
 }
